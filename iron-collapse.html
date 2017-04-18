@@ -51,6 +51,7 @@ The following custom properties and mixins are available for styling:
 Custom property | Description | Default
 ----------------|-------------|----------
 `--iron-collapse-transition-duration` | Animation transition duration | `300ms`
+`--iron-collapse-transition-delay`    | Animation transition delay    | `0ms`
 
 @group Iron Elements
 @hero hero.svg
@@ -66,6 +67,7 @@ Custom property | Description | Default
       :host {
         display: block;
         transition-duration: var(--iron-collapse-transition-duration, 300ms);
+        transition-delay: var(--iron-collapse-transition-delay, 0ms);
         overflow: visible;
       }
 
